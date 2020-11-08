@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="cn">
+    <head>
+        <title>五子棋</title>
+        <meta charset="UTF-8">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-touch-fullscreen" content="yes">
+        <meta name="viewport" content="user-scalable=no, initial-scale=.7, maximum-scale=.7, minimum-scale=.7, width=device-width">
+        <link rel="stylesheet" type="text/css" href="./style.css">
+    </head>
+    <body>
+        <div class="titleWrapper">
+            <span><span>当前模式</span><span class ="des" id="mode">人机对战</span></span>
+            <span><span>当前落子</span><span class ="des" id="character">黑棋⚫️</span></span>
+        </div>
+        <canvas id="chess" width="460px" height="460px"></canvas>
+        <div class="btnWrapper">
+            <button id="withdraw">悔棋</button>
+            <button id="restart">重新开局</button>
+            <button id="changeMode">切换模式</button>
+            <button id="aiFirst">电脑先手</button>
+            <script src="./index.js"></script>
+        </div>
+        
+    </body>
+</html>
